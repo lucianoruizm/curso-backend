@@ -1,0 +1,14 @@
+{
+  "name": "clase-1-2-backend",
+  "version": "1.0.0",
+  "description": "Clases de backend de Academia Numen",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luciano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

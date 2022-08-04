@@ -1,0 +1,28 @@
+About
+Curso backend de Academia Numen. Se incluye codigo realizado en clases y notas, los demas archivos (dependencias, modulos de node) no se incluyen.
+
+info.txt
+Diapositivas:
+https://view.genial.ly/6122cab2a45f7d0d19d713c2/presentation-unidad-3-4-curso-backend
+
+En las diapositivas se encuentran los pasos
+para la creación de los servidores, como la
+creación de server con express.
+
+
+En la consola bash:
+ctrl + c (Bajar y subir servidor)
+Flecha "Arriba" escribe comando anterior
+
+
+
+
+task.txt
+Tarea:
+
+Consigna de la clase de servidores con node.js:
+
+* Hacer una ruta con query que me devuelva un texto presentadose por su nombre y diciendo de donde es
+* Hacer una ruta que divida dos números
+* Usar método Number ejemplo ( let num1= Number(req.params.num1)
+esto hará que el parametro pase de formato string a number

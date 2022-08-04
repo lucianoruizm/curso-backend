@@ -1,0 +1,50 @@
+Diapositivas vistas en clase: 
+ https://view.genial.ly/6122cab2a45f7d0d19d713c2/presentation-unidad-3-4-curso-backend
+ https://view.genial.ly/6127965ec401400de24b8587/dossier-fin-de-la-unidad-4
+
+Códigos de estado de respuesta HTTP:
+ https://developer.mozilla.org/es/docs/Web/HTTP/Status
+ Ejemplo de código de estado: -200 OK- La solicitud ha tenido éxito.
+
+
+1. Generar backend con generador de aplicaciones express
+ https://expressjs.com/es/starter/generator.html
+ Instalación global: ---> npm install express-generator -g 
+ (Se recomienda con Git Bash)
+
+2. En la carpeta del trabajo actual mediante consola se puede
+instalar una view, en este caso se generó sin view con el 
+siguiente comando: --->  express --no-view nombre-del-proyecto
+
+3. npm i en consola instala todas las dependencias
+
+4. En la carpeta bin, el archivo www contiene todo lo necesario
+para levantar el servidor. app.js es el corazón del servidor y
+la carpeta routes la que contiene las rutas del servidor.
+
+5. Para utilizar un script en consola debe escribirse lo siguiente:
+---> npm run nombre-del-script en este caso start para levantar el servidor, 
+se puede ver con detalle en el archivo package.json
+
+6. Nodemon (is a tool that helps develop Node.js 
+based applications by automatically restarting the node application when 
+file changes in the directory are detected.).
+
+ Para instalar nodemon en consola de forma global se escribe lo siguiente:
+ ---> npm install -g nodemon # or using yarn: yarn global add nodemon.
+
+ You can also install nodemon as a development dependency:
+ --->  npm install --save-dev nodemon # or using yarn: yarn add nodemon -D
+ 
+7. Para utilizar Nodemon colocar en scripts del archivo package.json
+lo siguiente: "dev": "nodemon ./bin/www". De esta forma se puede levantar
+el servidor con el comando correspondiente en la consola, en este caso:
+---> npm run dev
+
+8. Para evitar algún posible problema al usarse AXIOS para consumir una API 
+se va a instalar CORS (is a node.js package for providing a Connect/Express 
+middleware that can be used to enable CORS with various options.) 
+---> npm i cors
+
+9. Para instalar Axios, en consola ingresar: ---> npm i axios 
+

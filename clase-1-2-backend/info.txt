@@ -1,0 +1,14 @@
+Diapositivas:
+https://view.genial.ly/6122cab2a45f7d0d19d713c2/presentation-unidad-3-4-curso-backend
+
+En las diapositivas se encuentran los pasos
+para la creación de los servidores, como la
+creación de server con express.
+
+
+En la consola bash:
+
+Para iniciar ejecutar en consola ===> node app.js (Iniciar servidor)
+
+ctrl + c (Bajar y subir servidor)
+Flecha "Arriba" escribe comando anterior

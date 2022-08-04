@@ -1,0 +1,8 @@
+Tarea:
+
+Consigna de la clase de servidores con node.js:
+
+* Hacer una ruta con query que me devuelva un texto presentadose por su nombre y diciendo de donde es
+* Hacer una ruta que divida dos números
+* Usar método Number ejemplo ( let num1= Number(req.params.num1)
+esto hará que el parametro pase de formato string a number
