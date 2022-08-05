@@ -1,0 +1,29 @@
+[
+  {
+    "product": {
+      "id": "1",
+      "name": "mouse",
+      "price": 5000,
+      "url": "something",
+      "description": "mouse gamer"
+    }
+  },
+  {
+    "product": {
+      "id": 2,
+      "name": "teclado",
+      "price": 7000,
+      "url": "something",
+      "description": "teclado gamer"
+    }
+  },
+  {
+    "product": {
+      "id": 3,
+      "name": "monitor",
+      "price": 27000,
+      "url": "something",
+      "description": "monitor 32 pulgadas"
+    }
+  }
+]

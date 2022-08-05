@@ -1,11 +1,16 @@
-Diapositivas vistas en clase: 
- https://view.genial.ly/6122cab2a45f7d0d19d713c2/presentation-unidad-3-4-curso-backend
- https://view.genial.ly/6127965ec401400de24b8587/dossier-fin-de-la-unidad-4
+FS (file system) no se instala porque es nativo en node.
 
-Códigos de estado de respuesta HTTP:
- https://developer.mozilla.org/es/docs/Web/HTTP/Status
- Ejemplo de código de estado: -200 OK- La solicitud ha tenido éxito.
+Para trabajar con fs se creó un archivo lamado product.json donde
+se crea un array vacio ---> [], esto es porque fs necesita tener bases.
 
+In Node.js, file I/O is provided by simple wrappers around standard POSIX 
+functions. Node File System (fs) module can be imported using following 
+syntax:
+
+syntax:
+var fs = require("fs")  
+
+Instalaciones requeridas para este proyecto:
 
 1. Generar backend con generador de aplicaciones express
  https://expressjs.com/es/starter/generator.html
@@ -47,3 +52,22 @@ middleware that can be used to enable CORS with various options.)
 ---> npm i cors
 
 9. Para instalar Axios, en consola ingresar: ---> npm i axios 
+
+
+json.stringfy:
+   JSON.stringify(value[, replacer[, space]])
+
+   value:
+   The value to convert to a JSON string.
+   
+   replacer (optional):
+   A function that alters the behavior of the stringification process, or an array of strings or numbers naming properties of value that should be included in the output. If replacer is null or not provided, all properties of the object are included in the resulting JSON string.
+   
+   space (optional):
+   A String or Number object that's used to insert white space (including indentation, line break characters, etc.) into the output JSON string for readability purposes.
+   
+   If this is a Number, it indicates the number of space characters to use as white space for indenting purposes; this number is capped at 10 (if it is greater, the value is just 10). Values less than 1 indicate that no space should be used.
+   
+   If this is a String, the string (or the first 10 characters of the string, if it's longer than that) is used as white space.
+   
+   If this parameter is not provided (or is null), no white space is used.
